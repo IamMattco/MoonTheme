@@ -16,7 +16,7 @@ gulp.task("front_js", function(cb) {
         gulp.src("assets/js/scripts.js"),
         include(),
         uglify(),
-        gulp.dest("public/js/")
+        gulp.dest("js/")
     ],
     cb
   );
@@ -27,7 +27,7 @@ gulp.task("front_sass", function(cb){
         gulp.src("assets/css/style.scss"),
         sass(),
         cssnano(),
-        gulp.dest("public/css")
+        gulp.dest("/")
     ],
     cb
   );
