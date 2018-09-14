@@ -7,6 +7,8 @@
  * @package MoonTheme
  */
 
+include_once("framework/admin.php");
+
 if ( ! function_exists( 'moontheme_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
